@@ -20,15 +20,16 @@ public class RaceResults {
 	}
 ;
 	public void printResults() {
-		String tagNumber;
-		TimeDuration resultTime;
-		String[][] tabResult;
-		tabResult = new String[2][];
+	
+		String[] tagNumber = null;
+		TimeDuration[] resultTime = null;
 		
-		for (int i = 0; i < tabResult.length; i++) {
-            for (int j=0; j <tabResult[i].length; j++) {
+		
+		
+		for (int i = 0; i < tagNumber.length; i++) {
+            for (int j=0; j <resultTime.length; j++) {
             	  
-                  System.out.print(tabResult[i][j]);	
+                  System.out.print(tagNumber[i]+resultTime[j]);	
             }
               
                 
